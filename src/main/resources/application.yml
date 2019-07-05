@@ -4,10 +4,10 @@ spring:
       server:
         git:
           uri: http://bitbucket.aps-drones.com:7990/scm/ass/configuration.git
-          username:
-          password:
+          username: servicesaps
+          password: namstrzelacniekazano
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:port/eureka/
+      defaultZone: http://127.0.0.1:8011/eureka/
