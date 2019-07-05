@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: aps-services-config-server
+server:
+  port: 8003
