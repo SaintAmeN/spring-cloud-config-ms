@@ -15,7 +15,7 @@ EXPOSE 18010
 ARG JAR_FILE=target/apss-config-ms-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} apss-config-server.jar
+ADD ${JAR_FILE} apss-config-ms.jar
 
 # Run the jar file 
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/apss-config-server.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/apss-config-ms.jar"]

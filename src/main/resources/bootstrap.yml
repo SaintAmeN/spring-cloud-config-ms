@@ -1,5 +1,5 @@
 spring:
   application:
-    name: apss-config-server
+    name: config-ms
 server:
   port: 18002

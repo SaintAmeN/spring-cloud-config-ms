@@ -1,5 +1,5 @@
 #!/bin/bash
-docker rmi apss-config-server
+docker rmi apss-config-ms
 mvn package
-docker build -t apss-config-server -f docker/Dockerfile .
-docker save apss-config-server -o apss-config-server.tar
+docker build -t apss-config-ms -f docker/Dockerfile .
+docker save apss-config-ms -o apss-config-ms.tar
