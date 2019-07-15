@@ -10,4 +10,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8011/eureka/
+      defaultZone: http://aps-platform:18010/eureka/

@@ -1,5 +1,5 @@
 spring:
   application:
-    name: aps-services-config-server
+    name: apss-config-server
 server:
-  port: 8003
+  port: 18002
