@@ -2,4 +2,4 @@ spring:
   application:
     name: config-ms
 server:
-  port: 18002
+  port: 8002

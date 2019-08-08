@@ -8,12 +8,11 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.aps.services</groupId>
-    <artifactId>apss-config-ms</artifactId>
+    <groupId>com.amen.services</groupId>
+    <artifactId>amen-config-ms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>apss-config-ms</name>
-    <description>Configuration Server for APS services</description>
+    <name>config-ms</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

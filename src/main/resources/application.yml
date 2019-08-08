@@ -3,11 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: http://bitbucket.aps-drones.com:7990/scm/ass/configuration.git
-          username: servicesaps
-          password: namstrzelacniekazano
+          uri: URL-github
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://aps-platform:18010/eureka/
+      defaultZone: http://localhost:8010/eureka/
