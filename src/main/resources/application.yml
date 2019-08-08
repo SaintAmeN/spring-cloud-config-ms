@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: URL-github
+          uri: https://github.com/SaintAmeN/spring-cloud-configuration.git
 
 eureka:
   client:
