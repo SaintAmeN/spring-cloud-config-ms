@@ -1,4 +1,4 @@
-package com.aps.services.configms;
+package com.amen.services.configms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.aps.services.configms;
+package com.amen.services.configms;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
